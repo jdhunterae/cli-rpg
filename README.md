@@ -33,10 +33,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">cli-rpg</h3>
 
   <p align="center">
-    project_description
+    Simple command line rpg in python
     <br />
     <a href="https://github.com/jdhunterae/cli-rpg"><strong>Explore the docs »</strong></a>
     <br />
@@ -92,14 +92,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Python3](https://python.org/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -114,25 +107,20 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+* pyhon
   ```sh
-  npm install npm@latest -g
+  apt-get install python3
   ```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/jdhunterae/cli-rpg.git
    ```
-3. Install NPM packages
+2. Run main python file
    ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+   python3 main.py
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -153,10 +141,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [x] Update README file
+- [ ] Set up testing environment for TDD
+    - [ ] Write up tests for initial objects
+    - [ ] Write up initial objects
 
 See the [open issues](https://github.com/jdhunterae/cli-rpg/issues) for a full list of proposed features (and known issues).
 
@@ -194,7 +182,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Your Name - [@cafecodr](https://twitter.com/cafecodr)
 
 Project Link: [https://github.com/jdhunterae/cli-rpg](https://github.com/jdhunterae/cli-rpg)
 
@@ -205,8 +193,6 @@ Project Link: [https://github.com/jdhunterae/cli-rpg](https://github.com/jdhunte
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
 * []()
 
 <p align="right">(<a href="#top">back to top</a>)</p>
